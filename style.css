@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url(./bg3.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-bar {
+  background: rgba(0, 0, 0, 0.438);
+  height: 80px;
+  width: 100%;
+}
+
+.logo {
+  margin: 10px 50px;
+  height: 60px;
+}
+
+.menu {
+  float: right;
+  list-style: none;
+  margin: 20px;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 10px 5px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  border: 1px solid black;
+}
+
+.menu li a:hover {
+  background: white;
+  transition: 0.4s;
+  color: rgb(233, 37, 37);
+}
+
+.welcome {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  user-select: none;
+}
+
+.welcome h1 {
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  width: 900px;
+}
+
+.welcome h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  width: 900px;
+  margin-top: 10px;
+}
+
+.buttons {
+  margin: 400px 600px;
+  text-align: center;
+}
+
+.btn {
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin: 5px;
+  padding: 7px 10px;
+  text-decoration: none;
+  background: #cc0000;
+  border: 1px solid #cc0000;
+  outline: none;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.btn1 {
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin: 5px;
+  padding: 7px 10px;
+  text-decoration: none;
+  background: #cc0000;
+  border: 1px solid #cc0000;
+  outline: none;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.btn:hover {
+  background: #cc0000;
+  color: white;
+}
+
+.btn1:hover {
+  background: #cc0000;
+  color: white;
+}
